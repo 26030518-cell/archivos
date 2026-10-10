@@ -1,0 +1,25 @@
+#promedio de tres calificaciones
+nombre = input("Nombre del alumno: ")
+calificaciones = [
+    float(input("Primera calificación: ")),
+    float(input("Segunda calificación: ")),
+    float(input("Tercera calificación: "))
+]
+promedio = sum(calificaciones) / len(calificaciones)
+print("\nNombre:", nombre)
+print("Calificaciones:", calificaciones)
+print("Promedio:", round(promedio, 2))
+if promedio >= 6.0:
+    print("Resultado: Aprobó")
+else:
+    print("Resultado: Reprobó")
+
+# 18 EXTRA. Calculadora de compra
+producto = input("Nombre del producto: ")
+precio = float(input("Precio unitario: "))
+cantidad = int(input("Cantidad comprada: "))
+total = precio * cantidad
+print("Producto:", producto)
+print("Cantidad:", cantidad)
+print("Total a pagar: $", round(total, 2))
+
