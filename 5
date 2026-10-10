@@ -1,0 +1,16 @@
+# 05. None — ejemplo
+resultado = None
+print("Valor inicial:", resultado)
+resultado = "Terminado"
+print("Valor final:", resultado)
+
+# 05 EXTRA. Buscar un producto
+buscado = input("Producto que buscas: ").lower()
+producto_encontrado = None
+if buscado == "sensor":
+    producto_encontrado = "Sensor de proximidad"
+if producto_encontrado is None:
+    print("Producto no encontrado")
+else:
+    print("Encontrado:", producto_encontrado)
+.
