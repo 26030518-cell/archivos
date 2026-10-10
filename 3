@@ -1,0 +1,14 @@
+# 03. Strings — ejemplo
+nombre = "Leonardo"
+apellido = "Silva"
+print("Nombre completo:", nombre + " " + apellido)
+print("Mayúsculas:", nombre.upper())
+print("Minúsculas:", nombre.lower())
+print("Cantidad de letras:", len(nombre))
+print("Primera letra:", nombre[0])
+
+# 03 EXTRA. Crear un correo
+nombre = input("Nombre: ").strip().lower()
+apellido = input("Apellido: ").strip().lower()
+correo = nombre + "." + apellido + "@ejemplo.com"
+print("Correo:", correo)
