@@ -1,0 +1,15 @@
+# 15. Conjuntos — ejemplo
+frutas = {"manzana", "naranja", "manzana", "pera"}
+print("Frutas sin repetir:", frutas)
+frutas.add("uva")
+print("Después de agregar uva:", frutas)
+frutas.discard("pera")
+print("Después de quitar pera:", frutas)
+
+# 15 EXTRA. Piezas sin repetir
+piezas = set()
+piezas.add("tornillo")
+piezas.add("tuerca")
+piezas.add("tornillo")
+print("Tipos de piezas:", piezas)
+print("Tipos diferentes:", len(piezas))
