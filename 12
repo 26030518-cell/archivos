@@ -1,0 +1,12 @@
+# 12. Listas — ejemplo
+alumnos = ["Ana", "Luis", "Pedro"]
+print("Lista completa:", alumnos)
+print("Primer alumno:", alumnos[0])
+for alumno in alumnos:
+    print(alumno)
+
+# 12 EXTRA. Lista de herramientas
+herramientas = ["Pinzas", "Desarmador", "Multímetro"]
+herramientas.append("Taladro")
+print("Herramientas:", herramientas)
+print("Cantidad:", len(herramientas))
