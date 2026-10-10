@@ -1,0 +1,17 @@
+# 13. Operaciones con listas — ejemplo
+numeros = [4, 2, 8, 1]
+numeros.append(6)
+print("Después de agregar:", numeros)
+numeros.remove(2)
+print("Después de eliminar el 2:", numeros)
+numeros.sort()
+print("Ordenada:", numeros)
+print("Longitud:", len(numeros))
+
+# 13 EXTRA. Ordenar calificaciones
+calificaciones = [8.5, 7.0, 9.2, 6.8]
+calificaciones.append(float(input("Agrega otra calificación: ")))
+calificaciones.sort()
+print("Calificaciones ordenadas:", calificaciones)
+print("Mayor:", max(calificaciones))
+print("Menor:", min(calificaciones))
