@@ -1,0 +1,19 @@
+# 11. Colecciones — ejemplo
+lista = ["motor", "sensor", "cable"]
+tupla = ("rojo", "verde", "azul")
+conjunto = {"A", "B", "C"}
+diccionario = {"nombre": "Motor", "cantidad": 3}
+print("Lista:", lista)
+print("Tupla:", tupla)
+print("Conjunto:", conjunto)
+print("Diccionario:", diccionario)
+
+# 11 EXTRA. Colecciones para inventario
+productos = ["Tornillos", "Sensores", "Cables"]
+ubicaciones = ("Estante A", "Estante B")
+categorias = {"mecánica", "electrónica"}
+inventario = {"Tornillos": 100, "Sensores": 8, "Cables": 25}
+print("Productos:", productos)
+print("Ubicaciones:", ubicaciones)
+print("Categorías:", categorias)
+print("Inventario:", inventario)
