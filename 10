@@ -1,0 +1,15 @@
+# 10. Conversión de tipos (casting) — ejemplo
+numero_texto = "42"
+numero_entero = int(numero_texto)
+numero_decimal = float("3.14")
+print("Entero:", numero_entero)
+print("Decimal:", numero_decimal)
+print("Suma:", numero_entero + numero_decimal)
+print("Redondeo:", round(numero_decimal, 1))
+
+# 10 EXTRA. Promedio con casting
+cal1 = float(input("Primera calificación: "))
+cal2 = float(input("Segunda calificación: "))
+cal3 = float(input("Tercera calificación: "))
+promedio = (cal1 + cal2 + cal3) / 3
+print("Promedio:", round(promedio, 2))
