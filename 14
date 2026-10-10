@@ -1,0 +1,11 @@
+# 14. Tuplas — ejemplo
+periodo = ("Agosto", "Diciembre", 2026)
+print("Periodo:", periodo)
+print("Mes inicial:", periodo[0])
+print("Mes final:", periodo[1])
+print("Año:", periodo[2])
+
+# 14 EXTRA. Coordenadas con tupla
+punto = (5, 8)
+print("Coordenada X:", punto[0])
+print("Coordenada Y:", punto[1])
