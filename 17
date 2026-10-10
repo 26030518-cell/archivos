@@ -1,0 +1,18 @@
+# 17. Break y continue — ejemplo
+for numero in range(1, 6):
+    if numero == 3:
+        break
+    print("Break:", numero)
+
+for numero in range(1, 6):
+    if numero == 3:
+        continue
+    print("Continue:", numero)
+
+# 17 EXTRA. Encontrar número con break y continue
+for numero in range(1, 50):
+    if numero % 2 == 0:
+        continue
+    if numero % 7 == 0:
+        print("Primer múltiplo impar de 7:", numero)
+        break
